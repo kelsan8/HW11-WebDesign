@@ -12,57 +12,37 @@
 <body>
         <div class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
           <div class="container">
-            <a href="../" class="navbar-brand">Pymaceuticals</a>
+            <a href="https://kelsan8.github.io/HW11-WebDesign/hw11_summary" class="navbar-brand">Pymaceuticals</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
               <ul class="navbar-nav">
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="themes">Visualizations<span class="caret"></span></a>
-                  <div class="dropdown-menu" aria-labelledby="themes">
-                    <a class="dropdown-item" href="../default/">Default</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="../cerulean/">! --- REPLACE THIS VALUE --- !</a>
-                   
-                  </div>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="visualizations" aria-haspopup="true" aria-expanded="false">Visualizations<span class="caret"></span></a>
+                      <div class="dropdown-menu" aria-labelledby="visualizations">
+                        <a class="dropdown-item" href="https://kelsan8.github.io/HW11-WebDesign/hw11_vis1">Tumor Response</a>
+                            <a class="dropdown-item" href="https://kelsan8.github.io/HW11-WebDesign/hw11_vis2">Metastatic Sites</a>
+                            <a class="dropdown-item" href="https://kelsan8.github.io/HW11-WebDesign/hw11_vis3">Survival Rate Over Time</a>
+                            <a class="dropdown-item" href="https://kelsan8.github.io/HW11-WebDesign/hw11_vis4">Survival Rate Per Treatment</a>
+                      </div>
+                    </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://kelsan8.github.io/HW11-WebDesign/hw11_comparisons">COMPARISONS</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="../help/">COMPARISON --- ! REPLACE THIS VALUE --- !</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="http://blog.bootswatch.com"> DATA --- ! REPLACE THIS VALUE --- !</a>
+                  <a class="nav-link" href="https://kelsan8.github.io/HW11-WebDesign/hw11_data">DATA</a>
                 </li>
               </ul>
     
               <ul class="nav navbar-nav ml-auto">
                 <li class="nav-item">
-                  <a class="nav-link" href="https://wrapbootstrap.com/?ref=bsw" target="_blank">HOME ! --- REPLACE --- !</a>
+                  <a class="nav-link" href="https://kelsan8.github.io/HW11-WebDesign/hw11_summary" target="_blank">HOME</a>
                 </li>
               </ul>
     
             </div>
           </div>
-        </div>
-        <div class="bs-component">
-                <ul class="nav nav-pills flex-column">
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#">Active</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#">Action</a>
-                      <a class="dropdown-item" href="#">Another action</a>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">Separated link</a>
-                    </div>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                </ul>
         </div>
     
     
@@ -71,6 +51,11 @@
           <div class="page-header" id="banner">
             <div class="row">
               <div class="col-lg-8 col-md-7 col-sm-6">
+                  <hr>
+                  <hr>
+                  <hr>
+                  <hr>
+                  <hr>
                 <h1>Project Overview</h1>
                 <p class="lead">Summary of the Data Analysis</p>
               </div>
@@ -81,363 +66,46 @@
               </div>
             </div>
           </div>
-    
-    
-          <!-- Buttons
-          ================================================== 
-          <div class="bs-docs-section">
-            <div class="page-header">
-              <div class="row">
-                <div class="col-lg-12">
-                  <h1 id="buttons">Buttons</h1>
-                </div>
-              </div>
+  
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-md-6 col-sm-6">
+              <p>
+                  <h3>Outline of the Assignment:</h3><br>
+              </p>    
+              <p>
+                  While your data companions rushed off to jobs in finance and government, you remained adamant that science was the way for you. 
+                  Staying true to your mission, you've since joined Pymaceuticals Inc., a burgeoning pharmaceutical company based out of San Diego, CA.
+                  Pymaceuticals specializes in drug-based, anti-cancer pharmaceuticals. In their most recent efforts, they've since begun screening 
+                  for potential treatments to squamous cell carcinoma (SCC), a commonly occurring form of skin cancer.
+              </p>
+                  As their Chief Data Analyst, you've been given access to the complete data from their most recent animal study. 
+                  In this study, 250 mice were treated through a variety of drug regimes over the course of 45 days. Their physiological 
+                  responses were then monitored over the course of that time. Your objective is to analyze the data to show how four 
+                  treatments (Capomulin, Infubinol, Ketapril, and Placebo) compare.
+              <hr>
+              <p>
+                  <h3>Summary of the Assignment:</h3>
+              </p>
+              <p>
+                The purpose of this assignment was to analyze data from a Pharmaceutical company's clinical animal study 
+                where they analyzed tumor size, number of metastatic sites, and mortality of mice in response to different
+                drugs alongside a placebo control.
+              </p>
+              <p>
+                  After analyzing the data, MatPlotLib was utilized to plot a visual representation of the variables in question
+                  for each treatment.
+              </p>
             </div>
-    
-            <div class="row">
-              <div class="col-lg-7">
-    
-                <div class="bs-component">
-                  <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
-                    <button type="button" class="btn btn-primary">Primary</button>
-                    <div class="btn-group" role="group">
-                      <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
-                      <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                        <a class="dropdown-item" href="#">Dropdown link</a>
-                        <a class="dropdown-item" href="#">Dropdown link</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-    
-                <div class="bs-component">
-                  <button type="button" class="btn btn-primary btn-sm">Small button</button>
-                </div>
-    
-              </div>
-              <div class="col-lg-5">
-    
-                <p class="bs-component">
-                  <button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
-                </p>
-              </div>
-            </div>
-          </div> -->
-    
-          <!-- Typography
-          ================================================== 
-          <div class="bs-docs-section">
-            <div class="row">
-              <div class="col-lg-12">
-                <div class="page-header">
-                  <h1 id="typography">Typography</h1>
-                </div>
-              </div>
-            </div>
-    
-             Headings 
-    
-            <div class="row">
-              <div class="col-lg-4">
-                <div class="bs-component">
-                  <h1>Heading 1</h1>
-                  <h2>Heading 2</h2>
-                  <h3>Heading 3</h3>
-                  <h4>Heading 4</h4>
-                  <h5>Heading 5</h5>
-                  <h6>Heading 6</h6>
-                  <h3>
-                    Heading
-                    <small class="text-muted">with muted text</small>
-                  </h3>
-                  <p class="lead">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="bs-component">
-                  <h2>Example body text</h2>
-                  <p>Nullam quis risus eget <a href="#">urna mollis ornare</a> vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.</p>
-                  <p><small>This line of text is meant to be treated as fine print.</small></p>
-                  <p>The following is <strong>rendered as bold text</strong>.</p>
-                  <p>The following is <em>rendered as italicized text</em>.</p>
-                  <p>An abbreviation of the word attribute is <abbr title="attribute">attr</abbr>.</p>
-                </div>
-    
-              </div>
-              <div class="col-lg-4">
-                <div class="bs-component">
-                  <h2>Emphasis classes</h2>
-                  <p class="text-muted">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p>
-                  <p class="text-primary">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                  <p class="text-secondary">Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
-                  <p class="text-warning">Etiam porta sem malesuada magna mollis euismod.</p>
-                  <p class="text-danger">Donec ullamcorper nulla non metus auctor fringilla.</p>
-                  <p class="text-success">Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>
-                  <p class="text-info">Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-                </div>
-    
-              </div>
-            </div>
-    
-             Blockquotes 
-    
-            <div class="row">
-              <div class="col-lg-12">
-                <h2 id="type-blockquotes">Blockquotes</h2>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-4">
-                <div class="bs-component">
-                  <blockquote class="blockquote">
-                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                    <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
-                  </blockquote>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="bs-component">
-                  <blockquote class="blockquote text-center">
-                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                    <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
-                  </blockquote>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="bs-component">
-                  <blockquote class="blockquote text-right">
-                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                    <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
-                  </blockquote>
-                </div>
-              </div>
-            </div>
-          </div> -->
-    
-          <!-- Tables
-          ================================================== -->
-          <div class="bs-docs-section">
-    
-            <div class="row">
-              <div class="col-lg-12">
-                <div class="page-header">
-                  <h1 id="tables">Tables</h1>
-                </div>
-    
-                <div class="bs-component">
-                  <table class="table table-hover">
-                    <thead>
-                        <tr><th title="Field #1">Mouse ID</th>
-                          <th title="Field #2">Timepoint</th>
-                          <th title="Field #3">Tumor Volume (mm3)</th>
-                          <th title="Field #4">Metastatic Sites</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="table-dark">
-                            <td>b128</td>
-                            <td align="right">0</td>
-                            <td align="right">45.0</td>
-                            <td align="right">0</td>
-                          </tr>
-                      
-                      <tr class="table-light">
-                        <th scope="row">Light</th>
-                        <td>Column content</td>
-                        <td>Column content</td>
-                        <td>Column content</td>
-                      </tr>
-                      <tr class="table-dark">
-                        <th scope="row">Dark</th>
-                        <td>Column content</td>
-                        <td>Column content</td>
-                        <td>Column content</td>
-                      </tr>
-                    </tbody>
-                  </table> 
-                </div><!-- /example -->
-              </div>
+            <div class="col-lg-4 col-md-6 col-md-6">
+              <p>
+                <img src="https://ucsd.bootcampcontent.com/UCSD-Coding-Bootcamp/UCSDSAN20190108DATA/raw/master/02-Homework/05-Matplotlib/Instructions/Images/Laboratory.jpg" alt="Assignmentimg" height="250px" width="400px">
+              </p>
             </div>
           </div>
-    
-    
-              
-    
-          <!-- Indicators
-          ================================================== -->
-          <div class="bs-docs-section">
-    
-            <div class="row">
-              <div class="col-lg-12">
-                <div class="page-header">
-                  <h1 id="indicators">Indicators</h1>
-                </div>
-              </div>
-            </div>
-              <div class="col-lg-4">
-                <div class="bs-component">
-                  <div class="alert alert-dismissible alert-info">
-                    <button type="button" class="close" data-dismiss="alert">&times;</button>
-                    <strong>Heads up!</strong> This <a href="#" class="alert-link">alert needs your attention</a>, but it's not super important.
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-4">
-                <div class="bs-component">
-                  <div class="alert alert-dismissible alert-primary">
-                    <button type="button" class="close" data-dismiss="alert">&times;</button>
-                    <strong>Oh snap!</strong> <a href="#" class="alert-link">Change a few things up</a> and try submitting again.
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="bs-component">
-                  <div class="alert alert-dismissible alert-secondary">
-                    <button type="button" class="close" data-dismiss="alert">&times;</button>
-                    <strong>Well done!</strong> You successfully read <a href="#" class="alert-link">this important alert message</a>.
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="bs-component">
-                  <div class="alert alert-dismissible alert-light">
-                    <button type="button" class="close" data-dismiss="alert">&times;</button>
-                    <strong>Heads up!</strong> This <a href="#" class="alert-link">alert needs your attention</a>, but it's not super important.
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div>
-            </div>
-          </div>
-
-          <!-- Containers
-          ================================================== -->
-          <div class="bs-docs-section">
-    
-            <div class="row">
-              <div class="col-lg-8 col-md-6 col-sm-4">
-                <div class="page-header">
-                  <h1 id="containers">Containers</h1>
-                </div>
-                <div class="bs-component">
-                  <div class="jumbotron">
-                    <h1 class="display-3">Hello, world!</h1>
-                    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-                    <hr class="my-4">
-                    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-                    <p class="lead">
-                      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            
-
-            
-                <div class="col-lg-4 col-md-2 col-sm-1">
-                  <div class="page-header">
-                    <h1 id="containers">Containers</h1>
-                  </div>
-                  <div class="bs-component">
-                    <div class="jumbotron">
-                      <h1 class="display-3">Hello, world!</h1>
-                      <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-                      <hr class="my-4">
-                      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-                      <p class="lead">
-                        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-    
-            <div class="row">
-              <div class="col-lg-12">
-                <h2>Cards</h2>
-              </div>
-            </div>
-    
-            <div class="row">
-              <div class="col-lg-4">
-                <div class="bs-component">
-                  <div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
-                    <div class="card-header">Header</div>
-                    <div class="card-body">
-                      <h4 class="card-title">Primary card title</h4>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                  </div>
-                  <div class="card bg-secondary mb-3" style="max-width: 20rem;">
-                    <div class="card-header">Header</div>
-                    <div class="card-body">
-                      <h4 class="card-title">Secondary card title</h4>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                  </div>
-                  
-                </div>
-              </div>
-    
-              <div class="col-lg-4">
-                <div class="bs-component">
-                  <div class="card mb-3">
-                    <h3 class="card-header">Card header</h3>
-                    <div class="card-body">
-                      <h5 class="card-title">Special title treatment</h5>
-                      <h6 class="card-subtitle text-muted">Support card subtitle</h6>
-                    </div>
-                    <img style="height: 200px; width: 100%; display: block;" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22318%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20318%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_158bd1d28ef%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A16pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_158bd1d28ef%22%3E%3Crect%20width%3D%22318%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22129.359375%22%20y%3D%2297.35%22%3EImage%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Card image">
-                    <div class="card-body">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                      <li class="list-group-item">Cras justo odio</li>
-                      <li class="list-group-item">Dapibus ac facilisis in</li>
-                      <li class="list-group-item">Vestibulum at eros</li>
-                    </ul>
-                    <div class="card-body">
-                      <a href="#" class="card-link">Card link</a>
-                      <a href="#" class="card-link">Another link</a>
-                    </div>
-                    <div class="card-footer text-muted">
-                      2 days ago
-                    </div>
-                  </div>
-                  <div class="card">
-                    <div class="card-body">
-                      <h4 class="card-title">Card title</h4>
-                      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="card-link">Card link</a>
-                      <a href="#" class="card-link">Another link</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-    
-          </div>
-    
-          
-    
-          <div id="source-modal" class="modal fade">
-            <div class="modal-dialog modal-lg">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h4 class="modal-title">Source Code</h4>
-                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                </div>
-                <div class="modal-body">
-                  <pre contenteditable></pre>
-                </div>
-              </div>
-            </div>
-          </div>
-    
+        </div>  
+        
+  
           <footer id="footer">
             <div class="row">
               <div class="col-lg-12">
